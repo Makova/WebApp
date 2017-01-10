@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=WebApp
+Comment=webapp for WebApp
+Type=Application
+Icon=WebApp.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://software-libre.ugr.es/redmine/projects/osl/* http://software-libre.ugr.es/redmine/projects/osl/%u
+Terminal=false
+X-Ubuntu-Touch=true

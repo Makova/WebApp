@@ -1,0 +1,16 @@
+{
+    "name": "redlink.makova",
+    "description": "abrir Redmine de la Oficina de Software Libre de la Universidad de Granada",
+    "architecture": "all",
+    "title": "WebApp",
+    "hooks": {
+        "WebApp": {
+            "apparmor": "WebApp.apparmor",
+            "desktop":  "WebApp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Manu Cogolludo <makova65@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+

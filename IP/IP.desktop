@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=IP
+Comment=webapp for IP
+Type=Application
+Icon=IP.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://cualesmiip.com/* http://www.cualesmiip.com/
+Terminal=false
+X-Ubuntu-Touch=true

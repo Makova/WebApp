@@ -1,0 +1,16 @@
+{
+    "name": "ip.makova",
+    "description": "Obtener la IP para conexiones",
+    "architecture": "all",
+    "title": "IP",
+    "hooks": {
+        "IP": {
+            "apparmor": "IP.apparmor",
+            "desktop":  "IP.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Manu Cogollludo <makova65@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+
